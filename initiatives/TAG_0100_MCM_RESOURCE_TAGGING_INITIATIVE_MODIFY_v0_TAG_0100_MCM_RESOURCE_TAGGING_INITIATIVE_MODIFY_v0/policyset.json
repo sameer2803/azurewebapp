@@ -1,0 +1,156 @@
+{
+ "properties": {
+  "displayName": "TAG_0100_MCM_RESOURCE_TAGGING_INITIATIVE_MODIFY_v0",
+  "policyType": "Custom",
+  "description": "Deloitte MasterCloud standard policy",
+  "metadata": {
+   "category": "Deloitte MasterCloud",
+   "createdBy": "d732a487-400f-49da-a3a9-a4fe84dc16ab",
+   "createdOn": "2021-04-22T08:56:38.6192516Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {
+   "MEMBERFIRM": {
+    "type": "String"
+   },
+   "COUNTRY": {
+    "type": "String"
+   },
+   "FUNCTION": {
+    "type": "String"
+   },
+   "OPERATINGGROUP": {
+    "type": "String"
+   },
+   "BUSINESSOWNERS": {
+    "type": "String"
+   },
+   "BILLINGCODE": {
+    "type": "String"
+   },
+   "CS": {
+    "type": "String"
+   },
+   "CLIENT": {
+    "type": "String"
+   },
+   "ENVIRONMENT": {
+    "type": "String"
+   }
+  },
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "1275286377438264581",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policyDefinitions/70932c5b-d743-4b16-aef1-4c7e706226f5",
+    "parameters": {
+     "tagName": {
+      "value": "MEMBERFIRM"
+     },
+     "tagValue": {
+      "value": "[parameters('MEMBERFIRM')]"
+     }
+    }
+   },
+   {
+    "policyDefinitionReferenceId": "21249316132982203",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policyDefinitions/70932c5b-d743-4b16-aef1-4c7e706226f5",
+    "parameters": {
+     "tagName": {
+      "value": "COUNTRY"
+     },
+     "tagValue": {
+      "value": "[parameters('COUNTRY')]"
+     }
+    }
+   },
+   {
+    "policyDefinitionReferenceId": "13226246882425272486",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policyDefinitions/70932c5b-d743-4b16-aef1-4c7e706226f5",
+    "parameters": {
+     "tagName": {
+      "value": "FUNCTION"
+     },
+     "tagValue": {
+      "value": "[parameters('FUNCTION')]"
+     }
+    }
+   },
+   {
+    "policyDefinitionReferenceId": "16058531861091947848",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policyDefinitions/70932c5b-d743-4b16-aef1-4c7e706226f5",
+    "parameters": {
+     "tagName": {
+      "value": "OPERATINGGROUP"
+     },
+     "tagValue": {
+      "value": "[parameters('OPERATINGGROUP')]"
+     }
+    }
+   },
+   {
+    "policyDefinitionReferenceId": "13997927141903702529",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policyDefinitions/70932c5b-d743-4b16-aef1-4c7e706226f5",
+    "parameters": {
+     "tagName": {
+      "value": "BUSINESSOWNERS"
+     },
+     "tagValue": {
+      "value": "[parameters('BUSINESSOWNERS')]"
+     }
+    }
+   },
+   {
+    "policyDefinitionReferenceId": "9700862428468031161",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policyDefinitions/70932c5b-d743-4b16-aef1-4c7e706226f5",
+    "parameters": {
+     "tagName": {
+      "value": "BILLINGCODE"
+     },
+     "tagValue": {
+      "value": "[parameters('BILLINGCODE')]"
+     }
+    }
+   },
+   {
+    "policyDefinitionReferenceId": "14912419000682327091",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policyDefinitions/70932c5b-d743-4b16-aef1-4c7e706226f5",
+    "parameters": {
+     "tagName": {
+      "value": "CS"
+     },
+     "tagValue": {
+      "value": "[parameters('CS')]"
+     }
+    }
+   },
+   {
+    "policyDefinitionReferenceId": "4323500055103996534",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policyDefinitions/70932c5b-d743-4b16-aef1-4c7e706226f5",
+    "parameters": {
+     "tagName": {
+      "value": "CLIENT"
+     },
+     "tagValue": {
+      "value": "[parameters('CLIENT')]"
+     }
+    }
+   },
+   {
+    "policyDefinitionReferenceId": "15347115149989352755",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policyDefinitions/70932c5b-d743-4b16-aef1-4c7e706226f5",
+    "parameters": {
+     "tagName": {
+      "value": "ENVIRONMENT"
+     },
+     "tagValue": {
+      "value": "[parameters('ENVIRONMENT')]"
+     }
+    }
+   }
+  ]
+ },
+ "id": "/providers/Microsoft.Management/managementgroups/AZMG-CMS-ROOT/providers/Microsoft.Authorization/policySetDefinitions/TAG_0100_MCM_RESOURCE_TAGGING_INITIATIVE_MODIFY_v0",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "TAG_0100_MCM_RESOURCE_TAGGING_INITIATIVE_MODIFY_v0"
+}
